@@ -11,7 +11,7 @@
         "**/.gitignore": true
     },
 
-    "editor.fontFamily": "Roboto Mono",
+    "editor.fontFamily": "Consolas",
     "editor.fontSize": 16,
     "editor.quickSuggestions": true,
     "editor.parameterHints": true,

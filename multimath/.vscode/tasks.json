@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "tsc",
+    "inShellCommand": true,
+    "args": ["--project", "./app"],
+    "problemMatcher": "$tsc",
+    "tasks": [
+        {
+            "type": "typescript",
+            "tsconfig": "multimath/app/tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
+            ]
+        }
+    ]
+}

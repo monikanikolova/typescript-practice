@@ -36,14 +36,7 @@ var logMessage = function (message) { return console.log(message); };
 function logError(error) {
     console.error(error);
 }
-var myResult = {
-    playerName: "Monika",
-    score: 5,
-    problemCount: 6,
-    factor: 7
-};
-var player = {
-    name: "Dan",
-    formatName: function () { return 'Daniel'; }
-};
+var firstPlayer = new Player();
+firstPlayer.name = "Kayla";
+console.log(firstPlayer.formatName());
 //# sourceMappingURL=app.js.map
